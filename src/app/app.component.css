@@ -1,0 +1,23 @@
+.app-status {
+  display: normal;
+  color: white;
+}
+.title {
+  margin-top: 10px;
+}
+.input {
+  margin-top: 10px;
+}
+.button {
+  margin-top: 25px;
+}
+.columns {
+  margin-top: 50px;
+}
+input[type=text] {
+  margin-left: 15px;
+  height: 35px;
+  outline-color: #DCDCDC;
+  border: 1px solid #DCDCDC;
+  text-transform: capitalize;
+}
