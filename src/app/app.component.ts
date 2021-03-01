@@ -1,15 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'username-generator';
-  fname = '';
-  lname = '';
+  fname = 'Coder';
+  lname = 'Byte';
   username = '';
+
+  ngOnInit() {
+    this.usernameGenerator();
+  }
 
   onFirstnameChange(e: Event): void {
     this.fname = (e.target as HTMLInputElement).value;
