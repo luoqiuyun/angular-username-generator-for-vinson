@@ -22,6 +22,10 @@
           (input)="onLastnameChange($event)"
         ><br><br>
       </div>
+      <button (click)="usernameGenerator()"
+        class="button is-link is-fullwidth">
+        Generate Username !
+      </button>
       <div class="box">
         <label>Generated Username:</label>
         <input class="input" [value]="username" />

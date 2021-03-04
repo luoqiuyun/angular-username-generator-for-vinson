@@ -19,5 +19,5 @@ input[type=text] {
   height: 35px;
   outline-color: #DCDCDC;
   border: 1px solid #DCDCDC;
-  text-transform: capitalize;
 }
+#fname, #lname {text-transform: capitalize;}
